@@ -66,7 +66,7 @@ function drawWords(x, y) {
 
   // We take out the words at those positions, then take a random word from it.
   
-  text(filteredCorpus.slice(wordBegin, wordEnd).join(' ').trim(), x, y,900);
+  text(filteredCorpus.slice(wordBegin, wordEnd).join(' ').trim(), x, y,width-500);
 
 
 }
