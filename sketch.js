@@ -55,7 +55,7 @@ function drawWords(x, y) {
   // Then we generate a random variable from the length of our corpus, then randomly decide how many words to pull from that point (between 1 and 4)
 
   let wordBegin = int(random(filteredCorpus.length));
-  let wordEnd = wordBegin + random(1, 4000);
+  let wordEnd = wordBegin + random(1, 20000);
 
   
   
