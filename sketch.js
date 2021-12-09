@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, 2000);
+  createCanvas(windowWidth, windowHeight);
   
 
   // Set text characteristics
@@ -31,7 +31,7 @@ function draw() {
 
   // Align the text to the right
   // and run drawWords() in the left third of the canvas
- let n=100;
+ let n=50;
   for(let i = 0;i<n;i++){
     let y =map(i, 0, n-1, width*0.01, height);
     console.log(print=y);
