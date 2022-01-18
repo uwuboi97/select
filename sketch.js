@@ -70,8 +70,11 @@ function drawWords(x, y) {
 
 
 }
-function keyPressed() {
-  if (keyCode === LEFT_ARROW) {
-    redraw();
+function mousePressed() [
+  redraw();
+  
+//function keyPressed() {
+  //if (keyCode === LEFT_ARROW) {
+    //redraw();
     }
 }
